@@ -1,0 +1,216 @@
+bj@BJ-HRI:~/ros2gal_ws$ ros2 launch jackal_navigation nav3.launch.py 
+[INFO] [launch]: All log files can be found below /home/bj/.ros/log/2024-03-26-16-50-30-093024-BJ-HRI-172683
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container-1]: process started with pid [172686]
+[INFO] [map_server-2]: process started with pid [172688]
+[INFO] [amcl-3]: process started with pid [172690]
+[INFO] [lifecycle_manager-4]: process started with pid [172692]
+[INFO] [controller_server-5]: process started with pid [172694]
+[INFO] [planner_server-6]: process started with pid [172696]
+[INFO] [recoveries_server-7]: process started with pid [172698]
+[INFO] [bt_navigator-8]: process started with pid [172700]
+[INFO] [waypoint_follower-9]: process started with pid [172702]
+[INFO] [lifecycle_manager-10]: process started with pid [172704]
+[lifecycle_manager-10] [INFO] [1711439430.911254214] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-10] [INFO] [1711439430.914802377] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients
+[lifecycle_manager-4] [INFO] [1711439430.919164574] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-4] [INFO] [1711439430.924039134] [lifecycle_manager_localization]: Creating and initializing lifecycle service clients
+[lifecycle_manager-4] [INFO] [1711439430.933464573] [lifecycle_manager_localization]: Starting managed nodes bringup...
+[lifecycle_manager-4] [INFO] [1711439430.933508903] [lifecycle_manager_localization]: Configuring map_server
+[planner_server-6] [INFO] [1711439430.937393865] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1711439430.937401153] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-9] [INFO] [1711439430.938307145] [waypoint_follower]: Creating
+[planner_server-6] [INFO] [1711439430.941037819] [planner_server]: Creating
+[map_server-2] [INFO] [1711439430.943598645] [map_server]: 
+[map_server-2] 	map_server lifecycle node launched. 
+[map_server-2] 	Waiting on external lifecycle transitions to activate
+[map_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1711439430.943736105] [map_server]: Creating
+[bt_navigator-8] [INFO] [1711439430.943730355] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1711439430.943814261] [bt_navigator]: Creating
+[map_server-2] [INFO] [1711439430.943942439] [map_server]: Configuring
+[map_server-2] [INFO] [map_io]: Loading yaml file: /home/bj/ros2gal_ws/install/jackal_navigation/share/jackal_navigation/maps/khu_5th_floor.yaml
+[map_server-2] [DEBUG] [map_io]: resolution: 0.02
+[map_server-2] [DEBUG] [map_io]: origin[0]: -40.72
+[map_server-2] [DEBUG] [map_io]: origin[1]: -20.88
+[map_server-2] [DEBUG] [map_io]: origin[2]: 0
+[map_server-2] [DEBUG] [map_io]: free_thresh: 0.196
+[map_server-2] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-2] [DEBUG] [map_io]: mode: trinary
+[map_server-2] [DEBUG] [map_io]: negate: 0
+[map_server-2] [INFO] [map_io]: Loading image_file: /home/bj/ros2gal_ws/install/jackal_navigation/share/jackal_navigation/maps/khu_5th_floor.pgm
+[controller_server-5] [INFO] [1711439430.955814069] [controller_server]: 
+[controller_server-5] 	controller_server lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1711439430.961249793] [controller_server]: Creating controller server
+[planner_server-6] [INFO] [1711439430.981300666] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1711439430.982054252] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-10] [INFO] [1711439431.255174281] [lifecycle_manager_navigation]: Starting managed nodes bringup...
+[lifecycle_manager-10] [INFO] [1711439431.255232399] [lifecycle_manager_navigation]: Configuring controller_server
+[amcl-3] [INFO] [1711439431.256918110] [amcl]: 
+[amcl-3] 	amcl lifecycle node launched. 
+[amcl-3] 	Waiting on external lifecycle transitions to activate
+[amcl-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-3] [INFO] [1711439431.257078968] [amcl]: Creating
+[controller_server-5] [INFO] [1711439431.273659867] [local_costmap.local_costmap]: 
+[controller_server-5] 	local_costmap lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1711439431.274948558] [local_costmap.local_costmap]: Creating Costmap
+[recoveries_server-7] [INFO] [1711439431.279887231] [recoveries_server]: 
+[recoveries_server-7] 	recoveries_server lifecycle node launched. 
+[recoveries_server-7] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1711439431.291393330] [controller_server]: Configuring controller interface
+[controller_server-5] [INFO] [1711439431.291462212] [controller_server]: getting goal checker plugins..
+[controller_server-5] [INFO] [1711439431.291891534] [controller_server]: Controller frequency set to 4.0000Hz
+[controller_server-5] [INFO] [1711439431.291911491] [local_costmap.local_costmap]: Configuring
+[controller_server-5] [INFO] [1711439431.297162367] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-5] [INFO] [1711439431.300836489] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-5] [INFO] [1711439431.306620771] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-5] [INFO] [1711439431.306654388] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-5] [INFO] [1711439431.306848979] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-5] [INFO] [1711439431.314814087] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-5] [INFO] [1711439431.320639109] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-5] [INFO] [1711439431.325906928] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-5] [INFO] [1711439431.328401968] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-5] [INFO] [1711439431.329799889] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-5] [INFO] [1711439431.342674424] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-5] [INFO] [1711439431.343366522] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.343670467] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-5] [INFO] [1711439431.344066224] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.344117588] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-5] [INFO] [1711439431.344309118] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.344351704] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-5] [INFO] [1711439431.345120852] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.345174529] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-5] [INFO] [1711439431.345223770] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.345243834] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-5] [INFO] [1711439431.345275704] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.345294211] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-5] [INFO] [1711439431.345326757] [controller_server]: Critic plugin initialized
+[controller_server-5] [INFO] [1711439431.345334246] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-10] [INFO] [1711439431.350534284] [lifecycle_manager_navigation]: Configuring planner_server
+[planner_server-6] [INFO] [1711439431.350782079] [planner_server]: Configuring
+[planner_server-6] [INFO] [1711439431.350814871] [global_costmap.global_costmap]: Configuring
+[planner_server-6] [INFO] [1711439431.356049312] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-6] [INFO] [1711439431.359328315] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-6] [INFO] [1711439431.361829025] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-6] [INFO] [1711439431.361857198] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-6] [INFO] [1711439431.362102684] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-6] [INFO] [1711439431.365025017] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-6] [INFO] [1711439431.365046882] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-6] [INFO] [1711439431.365899335] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-6] [INFO] [1711439431.372617691] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-6] [INFO] [1711439431.372655605] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1711439431.378334911] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-10] [INFO] [1711439431.384615226] [lifecycle_manager_navigation]: Configuring recoveries_server
+[recoveries_server-7] [INFO] [1711439431.390295569] [recoveries_server]: Configuring
+[recoveries_server-7] [INFO] [1711439431.400625340] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-7] [INFO] [1711439431.401530320] [recoveries_server]: Configuring spin
+[recoveries_server-7] [INFO] [1711439431.405106384] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-7] [INFO] [1711439431.406091333] [recoveries_server]: Configuring backup
+[recoveries_server-7] [INFO] [1711439431.409288318] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-7] [INFO] [1711439431.410269721] [recoveries_server]: Configuring wait
+[lifecycle_manager-10] [INFO] [1711439431.413831055] [lifecycle_manager_navigation]: Configuring bt_navigator
+[bt_navigator-8] [INFO] [1711439431.414019179] [bt_navigator]: Configuring
+[lifecycle_manager-10] [INFO] [1711439431.456982547] [lifecycle_manager_navigation]: Configuring waypoint_follower
+[waypoint_follower-9] [INFO] [1711439431.457167246] [waypoint_follower]: Configuring
+[waypoint_follower-9] [INFO] [1711439431.463557960] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-10] [INFO] [1711439431.464126748] [lifecycle_manager_navigation]: Activating controller_server
+[controller_server-5] [INFO] [1711439431.464257528] [controller_server]: Activating
+[controller_server-5] [INFO] [1711439431.464279598] [local_costmap.local_costmap]: Activating
+[controller_server-5] [INFO] [1711439431.464300654] [local_costmap.local_costmap]: Checking transform
+[controller_server-5] [INFO] [1711439431.464470693] [local_costmap.local_costmap]: start
+[controller_server-5] [INFO] [1711439431.464986746] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-10] [INFO] [1711439431.567602710] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-10] [INFO] [1711439431.567647547] [lifecycle_manager_navigation]: Activating planner_server
+[planner_server-6] [INFO] [1711439431.567933877] [planner_server]: Activating
+[planner_server-6] [INFO] [1711439431.567958195] [global_costmap.global_costmap]: Activating
+[planner_server-6] [INFO] [1711439431.567966267] [global_costmap.global_costmap]: Checking transform
+[planner_server-6] [INFO] [1711439431.568085442] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[map_server-2] [DEBUG] [map_io]: Read map /home/bj/ros2gal_ws/install/jackal_navigation/share/jackal_navigation/maps/khu_5th_floor.pgm: 2528 X 3840 map @ 0.02 m/cell
+[lifecycle_manager-4] [INFO] [1711439431.732907840] [lifecycle_manager_localization]: Configuring amcl
+[amcl-3] [INFO] [1711439431.733094213] [amcl]: Configuring
+[amcl-3] [INFO] [1711439431.733155858] [amcl]: initTransforms
+[amcl-3] [INFO] [1711439431.744639784] [amcl]: initPubSub
+[amcl-3] [INFO] [1711439431.746306127] [amcl]: Subscribed to map topic.
+[lifecycle_manager-4] [INFO] [1711439431.747780237] [lifecycle_manager_localization]: Activating map_server
+[map_server-2] [INFO] [1711439431.747930910] [map_server]: Activating
+[map_server-2] [INFO] [1711439431.754808916] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-3] [INFO] [1711439431.784168940] [amcl]: Received a 2528 X 3840 map @ 0.020 m/pix
+[planner_server-6] [INFO] [1711439431.784200922] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 2528 X 3840 at 0.020000 m/pix
+[lifecycle_manager-4] [INFO] [1711439431.858692751] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1711439431.858733755] [lifecycle_manager_localization]: Activating amcl
+[amcl-3] [INFO] [1711439431.892506596] [amcl]: Activating
+[amcl-3] [INFO] [1711439431.892535758] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-3] [INFO] [1711439431.963638589] [amcl]: createLaserObject
+[lifecycle_manager-4] [INFO] [1711439431.994734004] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-4] [INFO] [1711439431.994772495] [lifecycle_manager_localization]: Managed nodes are active
+[lifecycle_manager-4] [INFO] [1711439431.994781449] [lifecycle_manager_localization]: Creating bond timer...
+[planner_server-6] [INFO] [1711439432.068044760] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439432.568040406] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [INFO] [1711439432.581744836] [amcl_rclcpp_node]: Message Filter dropping message: frame 'laser_link' at time 5334.399 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-3] [INFO] [1711439432.581814542] [amcl_rclcpp_node]: Message Filter dropping message: frame 'laser_link' at time 5334.459 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[planner_server-6] [INFO] [1711439433.068047428] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439433.568041904] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [WARN] [1711439433.764532242] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1711439434.068044834] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439434.568040841] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439435.068040063] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439435.568042335] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [WARN] [1711439435.812985148] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1711439436.068046042] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439436.568045474] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439437.068065282] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439437.568055843] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [WARN] [1711439437.847339005] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1711439438.068046952] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439438.568052451] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439439.068037354] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439439.568060206] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [WARN] [1711439439.908175692] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1711439440.068051526] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439440.568060684] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439441.068078030] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[planner_server-6] [INFO] [1711439441.568051861] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [WARN] [1711439441.974835000] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-6] [INFO] [1711439442.068045574] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[amcl-3] [INFO] [1711439442.159654801] [amcl]: initialPoseReceived
+[amcl-3] [INFO] [1711439442.159748576] [amcl]: Setting pose (5344.819000): 0.026 -0.057 -0.021
+[planner_server-6] [INFO] [1711439442.568108853] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 5345.309000 but the earliest data is at time 5345.519000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-6] [INFO] [1711439443.068102020] [global_costmap.global_costmap]: start
+[planner_server-6] [INFO] [1711439443.168941120] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-6] [INFO] [1711439443.168982882] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-10] [INFO] [1711439443.272412358] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-10] [INFO] [1711439443.272455013] [lifecycle_manager_navigation]: Activating recoveries_server
+[recoveries_server-7] [INFO] [1711439443.272718912] [recoveries_server]: Activating
+[recoveries_server-7] [INFO] [1711439443.272745213] [recoveries_server]: Activating spin
+[recoveries_server-7] [INFO] [1711439443.272753148] [recoveries_server]: Activating backup
+[recoveries_server-7] [INFO] [1711439443.272758707] [recoveries_server]: Activating wait
+[recoveries_server-7] [INFO] [1711439443.272764255] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[lifecycle_manager-10] [INFO] [1711439443.375814369] [lifecycle_manager_navigation]: Server recoveries_server connected with bond.
+[lifecycle_manager-10] [INFO] [1711439443.375845160] [lifecycle_manager_navigation]: Activating bt_navigator
+[bt_navigator-8] [INFO] [1711439443.376081564] [bt_navigator]: Activating
+[bt_navigator-8] [INFO] [1711439443.515812023] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-10] [INFO] [1711439443.618467097] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-10] [INFO] [1711439443.618502133] [lifecycle_manager_navigation]: Activating waypoint_follower
+[waypoint_follower-9] [INFO] [1711439443.618834090] [waypoint_follower]: Activating
+[waypoint_follower-9] [INFO] [1711439443.618875423] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-10] [INFO] [1711439443.721975950] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-10] [INFO] [1711439443.722007939] [lifecycle_manager_navigation]: Managed nodes are active
+[lifecycle_manager-10] [INFO] [1711439443.722015451] [lifecycle_manager_navigation]: Creating bond timer...
+

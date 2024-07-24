@@ -1,0 +1,99 @@
+bj@BJ-HRI:~/ros2gal_ws$ ros2 launch jackal_navigation nav3.launch.py 
+[INFO] [launch]: All log files can be found below /home/bj/.ros/log/2024-03-26-14-18-59-489050-BJ-HRI-125824
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container-1]: process started with pid [125860]
+[INFO] [map_server-2]: process started with pid [125862]
+[INFO] [amcl-3]: process started with pid [125864]
+[INFO] [lifecycle_manager-4]: process started with pid [125866]
+[INFO] [controller_server-5]: process started with pid [125868]
+[INFO] [planner_server-6]: process started with pid [125870]
+[INFO] [recoveries_server-7]: process started with pid [125872]
+[INFO] [bt_navigator-8]: process started with pid [125874]
+[INFO] [waypoint_follower-9]: process started with pid [125876]
+[INFO] [lifecycle_manager-10]: process started with pid [125878]
+[lifecycle_manager-10] [INFO] [1711430340.243872609] [lifecycle_manager_navigation]: Creating
+[map_server-2] [INFO] [1711430340.258952388] [map_server]: 
+[map_server-2] 	map_server lifecycle node launched. 
+[map_server-2] 	Waiting on external lifecycle transitions to activate
+[map_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1711430340.259087639] [map_server]: Creating
+[lifecycle_manager-10] [INFO] [1711430340.576715613] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients
+[controller_server-5] [INFO] [1711430340.585532465] [controller_server]: 
+[controller_server-5] 	controller_server lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1711430340.593978276] [controller_server]: Creating controller server
+[waypoint_follower-9] [INFO] [1711430340.916125380] [waypoint_follower]: 
+[waypoint_follower-9] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-9] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-3] [INFO] [1711430340.916453072] [amcl]: 
+[amcl-3] 	amcl lifecycle node launched. 
+[amcl-3] 	Waiting on external lifecycle transitions to activate
+[amcl-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-3] [INFO] [1711430340.916544108] [amcl]: Creating
+[waypoint_follower-9] [INFO] [1711430340.918000308] [waypoint_follower]: Creating
+[lifecycle_manager-4] [INFO] [1711430340.927844468] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-4] [INFO] [1711430340.932323082] [lifecycle_manager_localization]: Creating and initializing lifecycle service clients
+[planner_server-6] [INFO] [1711430340.938976656] [planner_server]: 
+[planner_server-6] 	planner_server lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1711430340.941941380] [planner_server]: Creating
+[lifecycle_manager-4] [INFO] [1711430340.945068136] [lifecycle_manager_localization]: Starting managed nodes bringup...
+[lifecycle_manager-4] [INFO] [1711430340.945113513] [lifecycle_manager_localization]: Configuring map_server
+[map_server-2] [INFO] [1711430340.948892804] [map_server]: Configuring
+[map_server-2] [INFO] [map_io]: Loading yaml file: /home/bj/ros2gal_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/khu_5th_floor.yaml
+[recoveries_server-7] [INFO] [1711430340.949018277] [recoveries_server]: 
+[recoveries_server-7] 	recoveries_server lifecycle node launched. 
+[recoveries_server-7] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [DEBUG] [map_io]: resolution: 0.02
+[map_server-2] [DEBUG] [map_io]: origin[0]: -40.72
+[map_server-2] [DEBUG] [map_io]: origin[1]: -20.88
+[map_server-2] [DEBUG] [map_io]: origin[2]: 0
+[map_server-2] [DEBUG] [map_io]: free_thresh: 0.196
+[map_server-2] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-2] [DEBUG] [map_io]: mode: trinary
+[map_server-2] [DEBUG] [map_io]: negate: 0
+[bt_navigator-8] [INFO] [1711430340.950803492] [bt_navigator]: 
+[bt_navigator-8] 	bt_navigator lifecycle node launched. 
+[bt_navigator-8] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-8] [INFO] [1711430340.950942986] [bt_navigator]: Creating
+[map_server-2] [INFO] [map_io]: Loading image_file: /home/bj/ros2gal_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/khu_5th_floor.pgm
+[controller_server-5] [INFO] [1711430340.960068318] [local_costmap.local_costmap]: 
+[controller_server-5] 	local_costmap lifecycle node launched. 
+[controller_server-5] 	Waiting on external lifecycle transitions to activate
+[controller_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-5] [INFO] [1711430340.961290726] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-6] [INFO] [1711430340.995775323] [global_costmap.global_costmap]: 
+[planner_server-6] 	global_costmap lifecycle node launched. 
+[planner_server-6] 	Waiting on external lifecycle transitions to activate
+[planner_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-6] [INFO] [1711430340.996943742] [global_costmap.global_costmap]: Creating Costmap
+[map_server-2] [DEBUG] [map_io]: Read map /home/bj/ros2gal_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/maps/khu_5th_floor.pgm: 2528 X 3840 map @ 0.02 m/cell
+[lifecycle_manager-4] [INFO] [1711430341.649633320] [lifecycle_manager_localization]: Configuring amcl
+[amcl-3] [INFO] [1711430341.649827152] [amcl]: Configuring
+[amcl-3] [INFO] [1711430341.649904419] [amcl]: initTransforms
+[amcl-3] [INFO] [1711430341.655595089] [amcl]: initPubSub
+[amcl-3] [INFO] [1711430341.657471838] [amcl]: Subscribed to map topic.
+[lifecycle_manager-4] [INFO] [1711430341.659324320] [lifecycle_manager_localization]: Activating map_server
+[map_server-2] [INFO] [1711430341.659444825] [map_server]: Activating
+[map_server-2] [INFO] [1711430341.665840589] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-3] [INFO] [1711430341.681842952] [amcl]: Received a 2528 X 3840 map @ 0.020 m/pix
+[lifecycle_manager-4] [INFO] [1711430341.771207242] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1711430341.771246361] [lifecycle_manager_localization]: Activating amcl
+[amcl-3] [INFO] [1711430341.782019793] [amcl]: Activating
+[amcl-3] [INFO] [1711430341.782053621] [amcl]: Creating bond (amcl) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1711430341.885010775] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-4] [INFO] [1711430341.885048874] [lifecycle_manager_localization]: Managed nodes are active
+[lifecycle_manager-4] [INFO] [1711430341.885057699] [lifecycle_manager_localization]: Creating bond timer...
+[amcl-3] [INFO] [1711430352.624818452] [amcl]: createLaserObject
+[amcl-3] [WARN] [1711430353.271997159] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-3] [WARN] [1711430355.315677935] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-3] [INFO] [1711430356.547586451] [amcl]: initialPoseReceived
+[amcl-3] [INFO] [1711430356.547693733] [amcl]: Setting pose (4704.609000): 0.025 -0.017 0.032
+[amcl-3] [INFO] [1711430369.730162018] [amcl]: initialPoseReceived
+[amcl-3] [INFO] [1711430369.730271068] [amcl]: Setting pose (4717.799000): 0.034 0.005 -0.004
+

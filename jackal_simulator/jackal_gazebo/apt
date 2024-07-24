@@ -1,0 +1,6 @@
+sudo apt update
+
+sudo apt install ros-galactic-imu-filter-madgwick
+sudo apt install ros-galactic-velodyne-description
+sudo apt install ros-galactic-interactive-marker-twist-server
+sudo apt install ros-galactic-twist-mux
